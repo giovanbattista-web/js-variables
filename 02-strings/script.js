@@ -13,8 +13,8 @@ console.log(FullName);
 
 // SOLUZIONE 
 const number = 10;
-let text = "libri da leggere";
-let bool = "true";
+const text = `libri da leggere`;
+const bool = true;
 console.log(number, text, bool);
 
 // 3. Sostituisci null nelle righe sottostanti utilizzando operazioni con le stringhe
@@ -23,7 +23,8 @@ console.log(number, text, bool);
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
-const fullName = firstName +" " + lastName;
+
+const fullName = firstName+" "+lastName;
 console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
